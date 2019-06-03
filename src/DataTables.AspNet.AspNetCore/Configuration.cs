@@ -31,6 +31,7 @@ using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 using System.Linq;
 
+
 namespace DataTables.AspNet.AspNetCore
 {
     /// <summary>
@@ -110,7 +111,6 @@ namespace DataTables.AspNet.AspNetCore
 
             if (enableResponseAdditionalParameters)
                 Options.EnableResponseAdditionalParameters();
-
             services.Configure<Microsoft.AspNetCore.Mvc.MvcOptions>(_options =>
             {
 				// Should be inserted into first position because there is a generic binder which could end up resolving/binding model incorrectly.

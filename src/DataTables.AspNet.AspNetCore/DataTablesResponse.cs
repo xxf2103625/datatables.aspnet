@@ -23,9 +23,9 @@ THE SOFTWARE.
 */
 #endregion Copyright
 
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
-using Newtonsoft.Json;
 
 namespace DataTables.AspNet.AspNetCore
 {

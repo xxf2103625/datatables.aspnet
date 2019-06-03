@@ -35,9 +35,8 @@ namespace DataTables.AspNet.Samples.AspNetCore.BasicIntegration
         public void ConfigureServices(IServiceCollection services)
         {
 			services.AddMvc();
-
-			// DataTables.AspNet registration with default options.
-			services.RegisterDataTables();
+            // DataTables.AspNet registration with default options.
+            services.RegisterDataTables();
         }
 
         public void Configure(IApplicationBuilder app)
